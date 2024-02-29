@@ -32,3 +32,9 @@ list_c = ['Maria', 'Ana', 'Pedro', 1, 1.2, True]
 for name in list_c:
   print(name, type(name))
 
+names = ["Maria", "João", "Pedro"] #lista
+name1, name2, name3 = names
+print(name2)
+
+names2 = "Maria", "João", "Pedro" #tupla
+names3 = tuple(names)
